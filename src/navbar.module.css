@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #c4c4c4;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list-item {
+    color: #ff0000;
+}
+
+.nav-list-link {
+    text-decoration: none;
+    color: #ff0000;
+}
