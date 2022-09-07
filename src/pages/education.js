@@ -1,4 +1,5 @@
 import React from "react";
+import ExperienceElement from "../ExperienceElement";
 import Layout from "../Layout";
 import Title from "../PageTitle";
 
@@ -11,11 +12,7 @@ const EducationPage = () => {
                         My education, chronologically from the most recent.
                 </Title>
 
-                <div>
-                    <h3>
-                        Fullstack dev coding bootcamp
-                    </h3>
-                    <ul>
+                <ExperienceElement elementTitle="Fullstack dev bootcamp">
                         <li>
                             opis
                         </li>
@@ -25,14 +22,9 @@ const EducationPage = () => {
                         <li>
                             opis
                         </li>
-                    </ul>
-                </div>
+                </ExperienceElement>
 
-                <div>
-                    <h3>
-                        Economics - Wroclaw University
-                    </h3>
-                    <ul>
+                <ExperienceElement elementTitle="Economics - Wroclaw University">
                         <li>
                             opis
                         </li>
@@ -42,25 +34,19 @@ const EducationPage = () => {
                         <li>
                             opis
                         </li>
-                    </ul>
-                </div>
+                </ExperienceElement>
                 
-                <div>
-                    <h3>
-                        Karola Miarki Highschool - linguistics profile
-                    </h3>
-                    <ul>
-                        <li>
-                            opis
-                        </li>
-                        <li>
-                            opis
-                        </li>
-                        <li>
-                            opis
-                        </li>
-                    </ul>
-                </div>
+                <ExperienceElement elementTitle="Karola Miarki Highschool in Mikolow - linguistics profile">
+                    <li>
+                        opis
+                    </li>
+                    <li>
+                        opis
+                    </li>
+                    <li>
+                        opis
+                    </li>
+                </ExperienceElement>
                 
                 
             </main>

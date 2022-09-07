@@ -10,14 +10,20 @@ const IndexPage = () => {
     <Layout>
       <main className={landingPage}>
         <div className={titleWrapper}>
-          <StaticImage src="../images/zdj1.jpg" alt="A portrait photo of me smiling into the camera" placeholder="blurred" className={portrait} />
+          <StaticImage
+            src="../images/zdj1.jpg"
+            alt="A portrait photo of me smiling into the camera"
+            placeholder="blurred"
+            className={portrait}
+          />
           <h1>
             Hi. I'm Borys, an aspiring front-end dev. <br />
             Welcome to my CV website.
           </h1>
 
           <h3>
-            I encourage you to view it, but if you want only a traditional CV, you can download it <a href="#">here</a>.
+            I encourage you to view it, but if you want only a traditional CV,
+            you can download it <a href="#">here</a>.
           </h3>
         </div>
 
