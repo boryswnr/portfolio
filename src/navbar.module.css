@@ -1,16 +1,40 @@
 .navbar {
-    background-color: #c4c4c4;
+    background-color: #e7e7e7;
+    margin: 0;
+    border-bottom: 2px solid #000000;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+    transition: 300ms;
+}
+
+.navbar.scrolled {
+    background-color: #00000065;
 }
 
 .nav-list {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 0 20px 0;
 }
 
 .nav-list-item {
-    color: #ff0000;
+    margin: 0 15px 0 0;
+}
+
+.nav-list-item:last-child {
+    margin: 0;
 }
 
 .nav-list-link {
     text-decoration: none;
-    color: #ff0000;
+    color: #000000;
+    transition: 300ms;
+}
+
+.nav-list-link.scrolled {
+    color: #eeeeee;
 }

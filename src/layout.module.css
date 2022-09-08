@@ -1,4 +1,11 @@
+body {
+    margin: 0;
+    background-color: #e7e7e7;
+    font-family: "Oswald";
+}
+
 .container {
     max-width: 1000px;
-    margin: auto;
+    margin: 60px auto;
+    padding: 20px 0 20px 0;
 }

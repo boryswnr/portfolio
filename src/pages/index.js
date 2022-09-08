@@ -2,6 +2,7 @@ import * as React from "react";
 import Layout from "../Layout";
 import { titleWrapper, landingPage, portrait } from "../index.module.css";
 import { StaticImage } from "gatsby-plugin-image";
+import "@fontsource/oswald";
 
 
 
