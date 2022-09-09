@@ -31,28 +31,65 @@ const Navbar = () => {
         <nav className={navbar + scrolledClass}>
             <ul className={navList}>
                 <li className={navListItem}>
-                    <Link to="/" className={navListLink + scrolledClass}  title="Home">Home</Link>
+                    <Link 
+                        to="/" 
+                        className={navListLink + scrolledClass}  
+                        data-text="Home"
+                    >
+                        Home
+                    </Link>
                 </li>    
 
                 <li className={navListItem}>
-                    <Link to="/skills" className={navListLink + scrolledClass} title="Skills">Skills</Link>
+                    <Link 
+                        to="/skills" 
+                        className={navListLink + scrolledClass} 
+                        data-text="Skills"
+                    >
+                        Skills
+                    </Link>
                 </li>
 
                 <li className={navListItem}>
-                    <Link to="/projects" className={navListLink + scrolledClass} title="Projects">Projects</Link>
+                    <Link 
+                        to="/projects" 
+                        className={navListLink + scrolledClass}
+                        data-text="Projects"
+                    >
+                        Projects
+                    </Link>
                 </li>
 
                 <li className={navListItem}>
-                    <Link to="/experience" className={navListLink + scrolledClass} title="Experience">Experience</Link>
+                    <Link 
+                    to="/experience" 
+                    className={navListLink + scrolledClass} 
+                    data-text="Experience"
+                    >
+                        Experience
+                    </Link>
                 </li>
 
                 <li className={navListItem}>
-                    <Link to="/education" className={navListLink + scrolledClass} title="Education">Education</Link>
+                    <Link 
+                        to="/education" 
+                        className={navListLink + scrolledClass} 
+                        data-text="Education"
+                    >
+                        Education
+                    </Link>
                 </li>
 
                 <li className={navListItem}>
-                    <Link to="/contact" className={navListLink + scrolledClass} title="Contact">Contact</Link>
+                    <Link 
+                        to="/contact" 
+                        className={navListLink + scrolledClass} 
+                        data-text="Contact"
+                    >
+                        Contact
+                    </Link>
                 </li>
+
 
             </ul>
         </nav>

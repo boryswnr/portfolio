@@ -37,7 +37,7 @@
 }
 
 .nav-list-link::after {
-    content: attr(title);
+    content: attr(data-text);
     display: block;
     font-weight: 700;
     visibility: hidden;
