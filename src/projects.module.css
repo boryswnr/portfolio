@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image {
+    max-width: 500px;
+    padding: 0;
+}
+
+.description {
+    color: #ffffff;
+    margin: 0;
+    padding: 5px 0 0 0;
+}
