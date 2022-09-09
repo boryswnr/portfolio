@@ -31,27 +31,27 @@ const Navbar = () => {
         <nav className={navbar + scrolledClass}>
             <ul className={navList}>
                 <li className={navListItem}>
-                    <Link to="/" className={navListLink + scrolledClass}>Home</Link>
+                    <Link to="/" className={navListLink + scrolledClass}  title="Home">Home</Link>
                 </li>    
 
                 <li className={navListItem}>
-                    <Link to="/skills" className={navListLink + scrolledClass}>Skills</Link>
+                    <Link to="/skills" className={navListLink + scrolledClass} title="Skills">Skills</Link>
                 </li>
 
                 <li className={navListItem}>
-                    <Link to="/projects" className={navListLink + scrolledClass}>Projects</Link>
+                    <Link to="/projects" className={navListLink + scrolledClass} title="Projects">Projects</Link>
                 </li>
 
                 <li className={navListItem}>
-                    <Link to="/experience" className={navListLink + scrolledClass}>Experience</Link>
+                    <Link to="/experience" className={navListLink + scrolledClass} title="Experience">Experience</Link>
                 </li>
 
                 <li className={navListItem}>
-                    <Link to="/education" className={navListLink + scrolledClass}>Education</Link>
+                    <Link to="/education" className={navListLink + scrolledClass} title="Education">Education</Link>
                 </li>
 
                 <li className={navListItem}>
-                    <Link to="/contact" className={navListLink + scrolledClass}>Contact</Link>
+                    <Link to="/contact" className={navListLink + scrolledClass} title="Contact">Contact</Link>
                 </li>
 
             </ul>

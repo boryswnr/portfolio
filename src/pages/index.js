@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../Layout";
-import { titleWrapper, landingPage, portrait } from "../index.module.css";
+import { titleWrapper, landingPage, portrait, welcoming } from "../index.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import "@fontsource/oswald";
 import "@fontsource/oswald/200.css";
@@ -19,7 +19,7 @@ const IndexPage = () => {
             placeholder="blurred"
             className={portrait}
           />
-          <h1>
+          <h1 className={welcoming}>
             Hi. I'm Borys, an aspiring front-end dev. <br />
             Welcome to my CV website.
           </h1>

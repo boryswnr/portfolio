@@ -1,5 +1,15 @@
-.skills-columns-wrapper {
+.columns-wrapper {
     min-width: 50%;
     display: flex;
     justify-content: space-around;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.icon {
+    color: #000000;
+    margin: 0 15px 0 -35px;
+    width: 30px;
 }

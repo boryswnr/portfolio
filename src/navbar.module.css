@@ -19,6 +19,7 @@
     justify-content: center;
     margin: 0;
     padding: 20px 0 20px 0;
+    letter-spacing: 1px;
 }
 
 .nav-list-item {
@@ -33,6 +34,19 @@
     text-decoration: none;
     color: #000000;
     transition: 300ms;
+}
+
+.nav-list-link::after {
+    content: attr(title);
+    display: block;
+    font-weight: 700;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+
+.nav-list-link:hover {
+    font-weight: 700;
 }
 
 .nav-list-link.scrolled {
