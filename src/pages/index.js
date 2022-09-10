@@ -13,6 +13,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import "@fontsource/oswald";
 import "@fontsource/oswald/200.css";
 import "@fontsource/oswald/700.css";
+import "@fontsource/oswald/500.css";
 
 
 

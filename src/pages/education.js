@@ -25,7 +25,7 @@ const EducationPage = () => {
                 </ExperienceElement>
 
                 <ExperienceElement elementTitle="Economics - Wroclaw University" date="2015 - 2018">
-                        <li>
+                    <li>
                         Bachelor's degree
                     </li>
                     <li>
@@ -34,8 +34,10 @@ const EducationPage = () => {
                         
                 </ExperienceElement>
                 
-                <ExperienceElement elementTitle="Karola Miarki Highschool in Mikolow - linguistics profile" date="2012 - 2015">
-                    
+                <ExperienceElement elementTitle="Karola Miarki Highschool in Mikolow" date="2012 - 2015">
+                    <li>
+                        Linguistics profile
+                    </li>
                 </ExperienceElement>
                 
                 

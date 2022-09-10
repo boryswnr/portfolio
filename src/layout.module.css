@@ -9,3 +9,12 @@ body {
     margin: 60px auto;
     padding: 20px 0 20px 0;
 }
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 0 0 0 5px;
+    font-size: 10px;
+    color: #969696;
+}
