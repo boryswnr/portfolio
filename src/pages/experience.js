@@ -8,55 +8,50 @@ const Experience = () => {
     return (
         <Layout>
             <Title titleName="Work Experience">
-                A more or less relevant work experience.
+                My relevant work experience.
             </Title>
 
-            <ExperienceElement elementTitle="Cyber Security Analyst - Capgemini">
+            <ExperienceElement elementTitle="Cyber Security Analyst - Capgemini" date="April.2022 - present">
                 <li>
-                    opis
+                    Analysis and managment of threat alerts
                 </li>
                 <li>
-                    opis
+                    Patching cybersecurity vulnerabilities in clients software
                 </li>
                 <li>
-                    opis
-                </li>
-            </ExperienceElement>
-            
-            <ExperienceElement elementTitle="Board assistant - Lumatech">
-                <li>
-                    opis
-                </li>
-                <li>
-                    opis
-                </li>
-                <li>
-                    opis
+                    Python automation and web scrapping
                 </li>
             </ExperienceElement>
             
-            <ExperienceElement elementTitle="Manager, co-founder in data science startup">
+            <ExperienceElement elementTitle="Board assistant - Lumatech" date="January.2020 - April.2022">
                 <li>
-                    opis
+                    Conducting sales of machines via electronic channels
                 </li>
                 <li>
-                    opis
+                    Preparing sale announcments and customer service
                 </li>
                 <li>
-                    opis
+                    Taking care of current inspections in the field of construction, electricity, fire hazard, health and safety and others
                 </li>
             </ExperienceElement>
             
-            <ExperienceElement elementTitle="Product Control Analyst Intern - Credit Suisse">
+            <ExperienceElement elementTitle="Manager, co-founder in data science startup" date="June.2019 - December.2019">
                 <li>
-                    opis
+                    Founder and manager of a data science start-up
                 </li>
                 <li>
-                    opis
+                    Managing day-to-day administrative tasks
                 </li>
                 <li>
-                    opis
+                    Meeting with clients, negotiating, acquiring new customers, cooperating with programists and data scientists
                 </li>
+            </ExperienceElement>
+            
+            <ExperienceElement elementTitle="Product Control Analyst Intern - Credit Suisse" date="February.2018 - April.2018">
+                <li>
+                    Control and analysis of daily profit & loss of American assets
+                </li>
+               
             </ExperienceElement>
             
 

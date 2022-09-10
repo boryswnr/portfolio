@@ -12,40 +12,30 @@ const EducationPage = () => {
                         My education, chronologically from the most recent.
                 </Title>
 
-                <ExperienceElement elementTitle="Fullstack dev bootcamp">
+                <ExperienceElement elementTitle="Fullstack dev bootcamp" date="December.2021 - August.2022">
                         <li>
-                            opis
+                            Frontend - HTML, CSS, SCSS, JS and React
                         </li>
                         <li>
-                            opis
+                            Backend - Python and Django
                         </li>
                         <li>
-                            opis
+                            Additionally - SQL, Git, Linux
                         </li>
                 </ExperienceElement>
 
-                <ExperienceElement elementTitle="Economics - Wroclaw University">
+                <ExperienceElement elementTitle="Economics - Wroclaw University" date="2015 - 2018">
                         <li>
-                            opis
-                        </li>
-                        <li>
-                            opis
-                        </li>
-                        <li>
-                            opis
-                        </li>
+                        Bachelor's degree
+                    </li>
+                    <li>
+                        Specialization: Economics Law
+                    </li>
+                        
                 </ExperienceElement>
                 
-                <ExperienceElement elementTitle="Karola Miarki Highschool in Mikolow - linguistics profile">
-                    <li>
-                        opis
-                    </li>
-                    <li>
-                        opis
-                    </li>
-                    <li>
-                        opis
-                    </li>
+                <ExperienceElement elementTitle="Karola Miarki Highschool in Mikolow - linguistics profile" date="2012 - 2015">
+                    
                 </ExperienceElement>
                 
                 

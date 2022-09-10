@@ -12,4 +12,25 @@
 
 .portrait {
     max-width: 250px;
+    box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, 0.72);
+}
+
+.paragraph-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.paragraph-title {
+    width: 50%;
+    text-align: center;
+}
+
+.paragraph-text {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
 }

@@ -1,6 +1,14 @@
 import * as React from "react";
 import Layout from "../Layout";
-import { titleWrapper, landingPage, portrait, welcoming } from "../index.module.css";
+import {
+  titleWrapper,
+  landingPage,
+  portrait,
+  welcoming,
+  paragraphWrapper,
+  paragraphTitle,
+  paragraphText
+} from "../index.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import "@fontsource/oswald";
 import "@fontsource/oswald/200.css";
@@ -20,7 +28,7 @@ const IndexPage = () => {
             className={portrait}
           />
           <h1 className={welcoming}>
-            Hi. I'm Borys, an aspiring front-end dev. <br />
+            Hi. I'm Borys, an aspiring fullstack dev. <br />
             Welcome to my CV website.
           </h1>
 
@@ -30,13 +38,30 @@ const IndexPage = () => {
           </h3>
         </div>
 
-        <div>
-          <h2>
+        <div className={paragraphWrapper}>
+          <h2 className={paragraphTitle}>
             About me
           </h2>
-          <p>
-            A paragraph describing myself, my ambitions, plans and qualities. <br />
-            Lorem ipsum
+          <p className={paragraphText}>
+            I'm 26 years old and regretful that I discovered my passion for coding so late.
+            Now I'm eager to make up for the lost time. <br />
+            I know that a path to being a fullstack dev might take years, but I'm enthusiastic about it.
+            I'm ready to start off with a single specialization, but hope to develop myself in both front- and backend.
+            <br />
+            <br />
+            Apart from coding, I like sailing, working out, walking and playing with my dog,
+            playing video games and hiking. 
+          </p>
+        </div>
+
+        <div className={paragraphWrapper}>
+          <h2 className={paragraphTitle}>
+            About this site
+          </h2>
+          <p className={paragraphText}>
+            This website is created in Gatsby - a react framework for building static websites.
+            It is minimalistic, because I like it like that. If you want to see more fancy 
+            websites or other things I made, see a "Projects" tab in the navigation bar at the top.
           </p>
         </div>
 

@@ -1,0 +1,15 @@
+.title {
+    margin: 0;
+}
+
+.date-frame {
+    font-weight: 200;
+    color: #777777;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.list {
+    list-style-type: circle;
+}

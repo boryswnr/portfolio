@@ -1,13 +1,17 @@
 import React from "react";
+import { dateFrame, title, list } from "./experienceElement.module.css";
 
-const ExperienceElement = ({ elementTitle, children }) => {
+const ExperienceElement = ({ elementTitle, children, date }) => {
     
     return (
         <div>
-            <h3>
+            <h3 className={title}>
                 {elementTitle}
             </h3>
-            <ul>
+            <p className={dateFrame}>
+                {date}
+            </p>
+            <ul className={list}>
                 {children}
             </ul>
         </div>

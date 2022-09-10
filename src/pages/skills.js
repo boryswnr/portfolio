@@ -10,6 +10,7 @@ import {
     faJs,
     faReact,
     faPython,
+    faLinux
 } from '@fortawesome/free-brands-svg-icons';
 import {
     faCode,
@@ -50,6 +51,9 @@ const Skills = () => {
                         </li>
                         <li>
                             <FontAwesomeIcon icon={faCode} className={icon} />Django
+                        </li>
+                        <li>
+                            <FontAwesomeIcon icon={faLinux} className={icon} />Linux
                         </li>
                     </ul>
                 </div>
