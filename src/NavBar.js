@@ -9,7 +9,7 @@ import {
     hamburger,
     line,
     active,
-    open,
+    open
 } from "./navbar.module.css";
 
 const Navbar = () => {
@@ -27,7 +27,7 @@ const Navbar = () => {
 
     const handleMenuClick = () => {
         setIsMenuOpen(!isMenuOpen);
-        document.body.classList.toggle('stopScroll')
+        document.body.classList.toggle('stop-scroll')
     }
 
     useEffect(() => {
