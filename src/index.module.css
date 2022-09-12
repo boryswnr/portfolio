@@ -10,8 +10,16 @@
     text-align: center;
 }
 
+.welcoming {
+    font-size: clamp(1.25rem, 1.0357rem + 1.7143vw, 2rem);
+}
+
+.welcoming-paragraph {
+    font-size: clamp(0.75rem, 0.6429rem + 0.8571vw, 1.125rem);
+}
+
 .portrait {
-    max-width: 250px;
+    max-width: clamp(100px, 250px, 250px);
     box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, 0.72);
     -webkit-box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, 0.72);
     -moz-box-shadow: 1px 0px 15px 1px rgba(0, 0, 0, 0.72);
@@ -27,10 +35,28 @@
 .paragraph-title {
     width: 50%;
     text-align: center;
+    font-size: clamp(0.875rem, 0.6607rem + 1.7143vw, 1.625rem);
 }
 
 .paragraph-text {
     padding: 10px 20px;
     background-color: #ffffff;
     border-radius: 15px;
+    font-size: clamp(0.625rem, 0.5179rem + 0.8571vw, 1rem);
+}
+
+@media (max-width: 900px) {
+    .paragraph-wrapper {
+        flex-direction: column;
+    }
+
+    .portrait {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .portrait {
+        max-width: 150px;
+    }
 }

@@ -7,14 +7,15 @@ import {
   welcoming,
   paragraphWrapper,
   paragraphTitle,
-  paragraphText
+  paragraphText,
+  welcomingParagraph,
 } from "../index.module.css";
 import { StaticImage } from "gatsby-plugin-image";
 import "@fontsource/oswald";
 import "@fontsource/oswald/200.css";
 import "@fontsource/oswald/700.css";
 import "@fontsource/oswald/500.css";
-
+import downloadFile from "../downloads/BorysCV.pdf";
 
 
 const IndexPage = () => {
@@ -33,16 +34,16 @@ const IndexPage = () => {
             Welcome to my CV website.
           </h1>
 
-          <h3>
+          <h3 className={welcomingParagraph}>
             I encourage you to view it, but if you want only a traditional CV,
-            you can download it <a href="#">here</a>.
+            you can download it <a href={downloadFile} download>here</a>.
           </h3>
         </div>
 
         <div className={paragraphWrapper}>
-          <h2 className={paragraphTitle}>
+          <h3 className={paragraphTitle}>
             About me
-          </h2>
+          </h3>
           <p className={paragraphText}>
             I'm 26 years old and regretful that I discovered my passion for coding so late.
             Now I'm eager to make up for the lost time. <br />
@@ -56,9 +57,9 @@ const IndexPage = () => {
         </div>
 
         <div className={paragraphWrapper}>
-          <h2 className={paragraphTitle}>
+          <h3 className={paragraphTitle}>
             About this site
-          </h2>
+          </h3>
           <p className={paragraphText}>
             This website is created in Gatsby - a react framework for building static websites.
             It is minimalistic, because I like it like that. If you want to see more fancy 

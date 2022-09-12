@@ -6,11 +6,16 @@ import {
     navListItem,
     navListLink,
     scrolled,
+    hamburger,
+    line,
+    active,
+    open,
 } from "./navbar.module.css";
 
 const Navbar = () => {
 
-     const [scrollPosition, setScrollPosition] = useState(0);
+    const [scrollPosition, setScrollPosition] = useState(0);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const handleScroll = () => {
         const position = window.scrollY;
@@ -18,6 +23,12 @@ const Navbar = () => {
     }
 
     const scrolledClass = ' ' + (scrollPosition > 0 ? scrolled : 'top');
+    const activeMenuClass = ' ' + (isMenuOpen ? (active + " " + open) : "hidden");
+
+    const handleMenuClick = () => {
+        setIsMenuOpen(!isMenuOpen);
+        document.body.classList.toggle('stopScroll')
+    }
 
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
@@ -27,8 +38,9 @@ const Navbar = () => {
         }
     }, [handleScroll]);
 
+
     return (
-        <nav className={navbar + scrolledClass}>
+        <nav className={navbar + scrolledClass + activeMenuClass}>
             <ul className={navList}>
                 <li className={navListItem}>
                     <Link 
@@ -92,6 +104,12 @@ const Navbar = () => {
 
 
             </ul>
+            <button className={hamburger + activeMenuClass} onClick={handleMenuClick}>
+                <span className={line}></span>
+                <span className={line}></span>
+                <span className={line}></span>
+            </button>
+    
         </nav>
     )
 }

@@ -7,7 +7,7 @@ body {
 .container {
     max-width: 1000px;
     margin: 60px auto;
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
 }
 
 .footer {
@@ -17,4 +17,10 @@ body {
     padding: 0 0 0 5px;
     font-size: 10px;
     color: #969696;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 20px 40px;
+    }
 }

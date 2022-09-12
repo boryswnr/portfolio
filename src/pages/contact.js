@@ -4,6 +4,7 @@ import Title from "../PageTitle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { contactTitle, link, btn, wrapper } from "../contact.module.css";
+import downloadFile from "../downloads/BorysCV.pdf";
 
 const ContactPage = () => {
 
@@ -34,7 +35,7 @@ const ContactPage = () => {
                 <a href="mailto: boryswnr@proton.me" className={link}>boryswnr@proton.me</a>
             </div>
 
-        <a href="#" className={btn}>
+        <a href={downloadFile} className={btn} download>
                 Download my CV
             </a>
 
