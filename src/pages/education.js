@@ -47,3 +47,5 @@ const EducationPage = () => {
 }
 
 export default EducationPage;
+
+export const Head = () => <title>Education</title>

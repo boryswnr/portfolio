@@ -60,3 +60,5 @@ const Experience = () => {
 }
 
 export default Experience;
+
+export const Head = () => <title>Experience</title>
