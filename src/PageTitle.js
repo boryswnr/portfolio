@@ -1,13 +1,14 @@
 import React from "react";
+import {title, paragraph} from "./pageTitle.module.css"
 
 const Title = ({ children, titleName }) => {
     
     return (
         <div>
-            <h1>
+            <h3 className={title}>
                 {titleName}
-            </h1>
-            <p>
+            </h3>
+            <p className={paragraph}>
                 {children}
             </p>
         </div>

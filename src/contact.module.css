@@ -5,6 +5,7 @@
 .link {
     text-decoration: none;
     color: #000000;
+    font-size: clamp(0.75rem, 0.6786rem + 0.5714vw, 1rem);
 }
 
 .link:hover {
@@ -31,4 +32,12 @@
 
 .wrapper {
     margin: 0 0 50px 0;
+}
+
+@media (max-width: 300px) {
+    .btn {
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
 }

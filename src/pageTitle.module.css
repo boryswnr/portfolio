@@ -1,0 +1,7 @@
+.title {
+    font-size: clamp(1.625rem, 1.5179rem + 0.8571vw, 2rem);
+}
+
+.paragraph {
+    font-size: clamp(1rem, 0.6786rem + 0.5714vw, 1rem);
+}

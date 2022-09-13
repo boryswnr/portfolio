@@ -1,15 +1,17 @@
 .title {
     margin: 0;
+    font-size: clamp(0.875rem, 0.8036rem + 0.5714vw, 1.125rem);
 }
 
 .date-frame {
     font-weight: 200;
     color: #777777;
     margin: 0;
-    font-size: 14px;
+    font-size: clamp(0.625rem, 0.5536rem + 0.5714vw, 0.875rem);
     letter-spacing: 1px;
 }
 
 .list {
     list-style-type: circle;
+    font-size: clamp(0.75rem, 0.6786rem + 0.5714vw, 1rem);
 }

@@ -6,6 +6,9 @@
     border-radius: 15px;
     transition: 300ms;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bg:nth-child(2n) {
@@ -25,15 +28,17 @@
     width: 100%;
     border-radius: 15px;
     z-index: 10;
-    opacity: 0;
+    /* opacity: 0; */
     transition: 300ms;
+    display: none;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.bg:hover .overlay {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.overlay:hover {
-    opacity: 1;
 }
 
 .link {
@@ -52,4 +57,11 @@
 
 .icon:first-child {
     margin: 15px;
+}
+
+
+@media (max-width: 700px) {
+    .bg {
+        max-width: 90%;
+    }
 }
