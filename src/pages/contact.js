@@ -19,11 +19,11 @@ const ContactPage = () => {
                     Social media links:
                 </h3>
 
-                <a href="https://linkedin.com/in/borys-wnr/" className={link}>
+                <a href="https://linkedin.com/in/borys-wnr/" className={link} target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} /> - linkedin.com/in/borys-wnr/
                 </a>
                 <br/>
-                <a href="https://github.com/boryswnr" className={link}>
+                <a href="https://github.com/boryswnr" className={link} target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} /> - github.com/boryswnr
                 </a>
             </div>
@@ -32,7 +32,7 @@ const ContactPage = () => {
                 <h3 className={contactTitle}>
                     E-mail me:
                 </h3>
-                <a href="mailto: boryswnr@proton.me" className={link}>boryswnr@proton.me</a>
+                <a href="mailto: boryswnr@proton.me" className={link} target="_blank" rel="noopener noreferrer">boryswnr@proton.me</a>
             </div>
 
         <a href={downloadFile} className={btn} download>

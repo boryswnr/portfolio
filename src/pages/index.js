@@ -36,7 +36,7 @@ const IndexPage = () => {
 
           <h3 className={welcomingParagraph}>
             I encourage you to view it, but if you want only a traditional CV,
-            you can download it <a href={downloadFile} download>here</a>.
+            you can download it <a href={downloadFile} target="_blank" rel="noopener noreferrer" download>here</a>.
           </h3>
         </div>
 
