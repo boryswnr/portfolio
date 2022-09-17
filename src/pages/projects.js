@@ -15,23 +15,6 @@ const Projects = () => {
                 </Title>
 
                 <div className={wrapper}>
-                    <ProjectWrapper
-                        githubLink="https://github.com/boryswnr/Drink-database"
-                        deploymentLink="https://borys.django-code-brainers.com/"
-                    >
-                        <StaticImage
-                        src="../images/shakerApp-screen.png"
-                        alt="A small screenshot of my project"
-                        placeholder="blurred"
-                        className={image}
-                        />
-                        <p className={description}>
-                            A drink database app. <br />
-                            Technologies used: Python, Django. <br/>
-                            An app that allows you to create drink recipes from the ingredients you've added.
-                            Features other than viewing drink details require logon.
-                        </p>
-                    </ProjectWrapper>
                     
                     <ProjectWrapper
                         githubLink="https://github.com/boryswnr/bolbyGit"
@@ -68,6 +51,24 @@ const Projects = () => {
                             </p>
                     </ProjectWrapper>
 
+                    <ProjectWrapper
+                        githubLink="https://github.com/boryswnr/Drink-database"
+                        deploymentLink="https://borys.django-code-brainers.com/"
+                    >
+                        <StaticImage
+                        src="../images/shakerApp-screen.png"
+                        alt="A small screenshot of my project"
+                        placeholder="blurred"
+                        className={image}
+                        />
+                        <p className={description}>
+                            A drink database app. <br />
+                            Technologies used: Python, Django. <br/>
+                            An app that allows you to create drink recipes from the ingredients you've added.
+                            Features other than viewing drink details require logon.
+                        </p>
+                    </ProjectWrapper>
+                    
                     <ProjectWrapper 
                     githubLink="https://github.com/boryswnr/tulsy-recreation" 
                     deploymentLink="https://boryswnr.github.io/tulsy-recreation/"
