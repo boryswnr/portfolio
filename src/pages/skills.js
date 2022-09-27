@@ -44,7 +44,7 @@ const Skills = () => {
                         </li>
                         <li>
                             <FontAwesomeIcon icon={faJs} className={icon} />
-                            JavasSript
+                            JavasScript
                         </li>
                         <li>
                             <svg

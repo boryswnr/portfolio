@@ -29,7 +29,7 @@ const IndexPage = () => {
                         className={portrait}
                     />
                     <h1 className={welcoming}>
-                        Hi. I'm Borys, an aspiring fullstack dev. <br />
+                        Hi. I'm Borys, an aspiring frontend dev. <br />
                         Welcome to my CV website.
                     </h1>
 
