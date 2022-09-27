@@ -15,6 +15,44 @@ const Projects = () => {
 
                 <div className={wrapper}>
                     <ProjectWrapper
+                        githubLink="https://github.com/boryswnr/party_app"
+                        deploymentLink="https://github.com/boryswnr/party_app"
+                    >
+                        <StaticImage
+                            src="../images/WIP.png"
+                            alt="Roadworks sign - to show that this project is work in progress"
+                            placeholder="blurred"
+                            className={image}
+                        />
+                        <p className={description}>
+                            Work in progress - Music Controller app <br />
+                            Technologies used: TypeScript, React, Django,
+                            RestAPI. <br />A fullstack project I'm currently
+                            working on. Since it is WIP, no deployments
+                            available yet.
+                        </p>
+                    </ProjectWrapper>
+
+                    <ProjectWrapper
+                        githubLink="https://github.com/boryswnr/shopping-cart"
+                        deploymentLink="https://borys-shopping-cart.netlify.app/"
+                    >
+                        <StaticImage
+                            src="../images/shopping-cart-screen.png"
+                            alt="A small screenshot of my project"
+                            placeholder="blurred"
+                            className={image}
+                        />
+                        <p className={description}>
+                            A frontend of an e-commerce shopping cart. <br />
+                            Technologies used: TypeScript, React. <br />A
+                            frontend side of a regular shopping cart you can
+                            find on any on-line shop. Basic styling via
+                            bootstrap.
+                        </p>
+                    </ProjectWrapper>
+
+                    <ProjectWrapper
                         githubLink="https://github.com/boryswnr/tulsy-recreation"
                         deploymentLink="https://boryswnr.github.io/tulsy-recreation/"
                     >
@@ -27,7 +65,7 @@ const Projects = () => {
                         <p className={description}>
                             Corporate landing page. <br />
                             Technologies used: HTML, CSS, JavaScript. <br />
-                            Based on tulsy project.
+                            Based on tulsy template.
                         </p>
                     </ProjectWrapper>
 
@@ -43,10 +81,9 @@ const Projects = () => {
                         />
                         <p className={description}>
                             Weather forecast app. <br />
-                            Technologies used: HTML, CSS, JavaScript, external
-                            API. <br />A simple website to check a weather for
-                            the next few days. Uses free web API and JS
-                            geolocation.
+                            Technologies used: HTML, CSS, JavaScript, web API.{" "}
+                            <br />A simple website to check a weather for the
+                            next few days. Uses free web API and JS geolocation.
                         </p>
                     </ProjectWrapper>
 
