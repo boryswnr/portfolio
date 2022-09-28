@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
-import AniLink from "gatsby-plugin-transition-link/AniLink";
 import {
     navbar,
     navList,
@@ -42,69 +41,63 @@ const Navbar = () => {
         <nav className={navbar + scrolledClass + activeMenuClass}>
             <ul className={navList}>
                 <li className={navListItem}>
-                    <AniLink
-                        fade
+                    <Link
                         to="/"
                         className={navListLink + scrolledClass}
                         data-text="Home"
                     >
                         Home
-                    </AniLink>
+                    </Link>
                 </li>
 
                 <li className={navListItem}>
-                    <AniLink
-                        fade
+                    <Link
                         to="/skills"
                         className={navListLink + scrolledClass}
                         data-text="Skills"
                     >
                         Skills
-                    </AniLink>
+                    </Link>
                 </li>
 
                 <li className={navListItem}>
-                    <AniLink
-                        fade
+                    <Link
                         to="/projects"
                         className={navListLink + scrolledClass}
                         data-text="Projects"
                     >
                         Projects
-                    </AniLink>
+                    </Link>
                 </li>
 
                 <li className={navListItem}>
-                    <AniLink
-                        fade
+                    <Link
                         to="/experience"
                         className={navListLink + scrolledClass}
                         data-text="Experience"
                     >
                         Experience
-                    </AniLink>
+                    </Link>
                 </li>
 
                 <li className={navListItem}>
-                    <AniLink
-                        fade
+                    <Link
                         to="/education"
                         className={navListLink + scrolledClass}
                         data-text="Education"
                     >
                         Education
-                    </AniLink>
+                    </Link>
                 </li>
 
                 <li className={navListItem}>
-                    <AniLink
-                        fade
+                    <Link
                         to="/contact"
                         className={navListLink + scrolledClass}
                         data-text="Contact"
                     >
                         Contact
-                    </AniLink>
+                    </Link>
                 </li>
             </ul>
             <button
