@@ -19,17 +19,19 @@ const Projects = () => {
                         deploymentLink="https://github.com/boryswnr/party_app"
                     >
                         <StaticImage
-                            src="../images/WIP.png"
-                            alt="Roadworks sign - to show that this project is work in progress"
+                            src="../images/partyappscreen.png"
+                            alt="A small screenshot of my project"
                             placeholder="blurred"
                             className={image}
                         />
                         <p className={description}>
-                            Work in progress - Music Controller app <br />
+                            Shared Music Controller app <br />
                             Technologies used: TypeScript, React, Django,
-                            RestAPI. <br />A fullstack project I'm currently
-                            working on. Since it is WIP, no deployments
-                            available yet.
+                            Spotify API. <br />A fullstack project built around
+                            Spotify API to let people play/pause music and vote
+                            on skipping a song. <br /> So far, no deployment
+                            available. See README in the repo to for
+                            instructions on how to spin it up.
                         </p>
                     </ProjectWrapper>
 
@@ -122,25 +124,6 @@ const Projects = () => {
                             practice web development skills. Also, a little
                             proof that I can make a fancier website if I want
                             to.
-                        </p>
-                    </ProjectWrapper>
-
-                    <ProjectWrapper
-                        githubLink="https://github.com/boryswnr/Drink-database"
-                        deploymentLink="https://borys.django-code-brainers.com/"
-                    >
-                        <StaticImage
-                            src="../images/shakerApp-screen.png"
-                            alt="A small screenshot of my project"
-                            placeholder="blurred"
-                            className={image}
-                        />
-                        <p className={description}>
-                            A drink database app. <br />
-                            Technologies used: Python, Django. <br />
-                            An app that allows you to create drink recipes from
-                            the ingredients you've added. Features other than
-                            viewing drink details require logon.
                         </p>
                     </ProjectWrapper>
                 </div>

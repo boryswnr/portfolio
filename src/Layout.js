@@ -4,19 +4,14 @@ import Navbar from "./NavBar";
 import ScrollUpBtn from "./ScrollUpButton";
 
 const Layout = ({ children }) => {
-    
     return (
         <>
-            <Navbar/>
-            <div className={container}>
-                {children}
-            </div>
+            <Navbar />
+            <div className={container}>{children}</div>
             <ScrollUpBtn />
-            <footer className={footer}>
-                &#169;BorysWnr 2022
-            </footer>
+            <footer className={footer}>&#169;BorysWnr 2022</footer>
         </>
-    )
-}
+    );
+};
 
-export default Layout
+export default Layout;
